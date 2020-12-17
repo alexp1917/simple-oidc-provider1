@@ -1,0 +1,18 @@
+{
+  "name": "simple-oidc-provider",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "bin": {
+    "simple-oidc-provider": "./bin/simple-oidc-provider.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "GPL-3.0-or-later",
+  "repository": "git@github.com:alexp1917/simple-oidc-provider.git",
+  "author": "Alex P <alexpimt1917@gmail.com>",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
